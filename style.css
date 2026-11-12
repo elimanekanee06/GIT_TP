@@ -5,6 +5,7 @@ h1 {
 h2 {
   color: green;
 }
+
 .dark {
     background-color: black;
     color: white;
@@ -12,4 +13,8 @@ h2 {
 
 .dark a {
     color: white;
+}
+
+@media (max-width: 700px) {
+  h1 { font-size: 18px; }
 }
